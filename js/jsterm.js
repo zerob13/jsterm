@@ -485,17 +485,15 @@
    }
 
    var term = Object.create(Terminal);
-   term.init(CONFIG, '/json/sample.json', COMMANDS, function() {
+   term.init(CONFIG, '/json/zerob13.json', COMMANDS, function() {
       term.enqueue('login')
-          .enqueue('clark')
-          .enqueue('******')
-          .enqueue('cat file1')
+          .enqueue('zerob13')
+          .enqueue('***************')
+          .enqueue('cat introduce')
           .enqueue('help')
-          .enqueue('ls -l')
-          .enqueue('cd dir1/foo')
+          .enqueue('cd Links')
           .enqueue('ls')
-          .enqueue('cd ../..')
-          .enqueue('ls dir1/foo')
+          .enqueue('cd ..')
           .enqueue('tree')
           .begin();
    });

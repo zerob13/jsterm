@@ -1,0 +1,84 @@
+{
+    "type": "dir", 
+    "name": "~", 
+    "contents": [
+    {
+        "type": "text", 
+        "name": "introduce", 
+        "contents": "</h2>Who am I?</h2><br>Storyteller|Photographer|Geek|Coder|Chinese"
+    },
+    {
+        "name": "Photos",
+        "type": "dir",
+        "contents": [
+
+        {
+            "type": "img", 
+            "name": "myself_5.jpg", 
+            "contents": "/images/myself_5.jpg"
+        }, 
+        {
+            "type": "img", 
+            "name": "myself_4.jpg", 
+            "contents": "/images/myself_4.jpg"
+        }, 
+        {
+            "type": "img", 
+            "name": "myself_2.jpg", 
+            "contents": "/images/myself_2.jpg"
+        }, 
+        {
+            "type": "img", 
+            "name": "myself_3.jpg", 
+            "contents": "/images/myself_3.jpg"
+        }, 
+        {
+            "type": "img", 
+            "name": "myself_1.jpg", 
+            "contents": "/images/myself_1.jpg"
+        }]},
+    {
+        "name": "Links",
+        "type": "dir",
+        "contents": [
+        {
+            "name": "Blog",
+            "type": "exec",
+            "contents": "http://blog.zerob13.in",
+            "description": "My Blog"
+        },
+        {
+            "name": "GitHub",
+            "type": "exec",
+            "contents": "http://github.com/zerob13",
+            "description": "My GitHub profile"
+        },
+        {
+            "name": "Twitter",
+            "type": "exec",
+            "contents": "http://twitter.com/zerob13",
+            "description": "Follow me on twitter "
+        },
+        {
+            "name": "Weibo",
+            "type": "exec",
+            "contents": "http://weibo.com/zerob13",
+            "description": "Follow me on weibo"
+        },
+        {
+            "name": "Email",
+            "type": "exec",
+            "contents": "mailto://zerob13@gmail.com",
+            "description": "Just mail me! "
+        },
+        {
+            "name": "LinkedIn",
+            "type": "exec",
+            "contents": "http://www.linkedin.com/pub/lingfeng-yang/2b/113/335",
+            "description": "My resume"
+        }
+
+        ]
+    }
+    ]
+}
